@@ -3,20 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Github-Profile-Viewwer</title>
+    <title>GitHub Profile Viewer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <input
-        type="text"
-        id="username"
-        placeholder="Enter the Github username..."
-      />
-      <button onclick="fetchprofile()">Fetch profile</button>
-      <div id="profile"></div>
-      <div id="repositories"></div>
+      <h1>GitHub Profile Viewer</h1>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter GitHub username..."
+        />
+        <button onclick="searchUser()">Search</button>
+      </div>
+
+      <div id="loading" class="loading hidden">Loading...</div>
+      <div id="error" class="error hidden"></div>
+
+      <div id="profileContainer" class="profile-container"></div>
     </div>
+
     <script src="profile.js"></script>
   </body>
 </html>
