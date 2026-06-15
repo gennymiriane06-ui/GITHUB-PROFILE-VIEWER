@@ -4,7 +4,7 @@ A simple and responsive web application that allows users to search for GitHub p
 
 This project demonstrates how to work with APIs, handle asynchronous JavaScript, and dynamically update the DOM based on user input.
 
-<!-- ![GitHub Profile Viewer](assets/) -->
+![GitHub Profile Viewer](assets/git.png)
 
 
 ## Features
