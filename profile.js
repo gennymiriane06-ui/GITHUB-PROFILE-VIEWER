@@ -1,14 +1,14 @@
-const searchInput = document.getElementById("searchInput");
-const profileContainer = document.getElementById("profileContainer");
+const searchinput = document.getElementById("searchinput");
+const profilecontainer = document.getElementById("profilecontainer");
 const loading = document.getElementById("loading");
 const errorBox = document.getElementById("error");
 
 async function searchUser() {
-  const username = searchInput.value.trim();
+  const username = searchinput.value.trim();
 
   if (!username) return;
 
-  profileContainer.innerHTML = "";
+  profilecontainer.innerHTML = "";
   errorBox.classList.add("hidden");
   loading.classList.remove("hidden");
 
@@ -51,11 +51,11 @@ function displayUser(user) {
     window.open(user.html_url, "_blank");
   });
 
-  profileContainer.appendChild(card);
+  profilecontainer.appendChild(card);
 }
 
 // Enter key support
-searchInput.addEventListener("keypress", (e) => {
+searchinput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
     searchUser();
   }
