@@ -98,3 +98,28 @@ h1 {
   justify-content: space-around;
   font-size: 0.85rem;
 }
+
+.loading {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #93c5fd;
+}
+
+.error {
+  margin-top: 15px;
+  color: #f87171;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-box input {
+    width: 100%;
+  }
+}
