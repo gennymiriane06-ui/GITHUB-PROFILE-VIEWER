@@ -10,11 +10,9 @@ This project demonstrates how to work with APIs, handle asynchronous JavaScript,
 ## Features
 
 * Search GitHub Users
-
-  * Search for any GitHub username.
-  * Fetch user data directly from the GitHub API.
-  * Display profile information instantly.
-
+* Search for any GitHub username.
+* Fetch user data directly from the GitHub API.
+* Display profile information instantly.
 * View Profile Details
 
 The application displays:
@@ -30,9 +28,8 @@ The application displays:
   * GitHub Profile Link
 
 * Visit GitHub Profile
-
-  * Click the profile button or link to open the user's   GitHub page.
-  * Opens in a new tab using the `target="_blank"` attribute.
+* Click the profile button or link to open the user's   GitHub page.
+* Opens in a new tab using the `target="_blank"` attribute.
 
 * Responsive Design
 
