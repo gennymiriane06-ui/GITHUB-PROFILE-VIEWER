@@ -1,48 +1,43 @@
 # GitHub Profile Viewer
 
-A simple and responsive web application that allows users to search for GitHub profiles and view key account information using the GitHub API.
+A simple and responsive web application that allows users to search for GitHub profiles and view important account information using the GitHub API.
 
 This project demonstrates how to work with APIs, handle asynchronous JavaScript, and dynamically update the DOM based on user input.
 
 ![GitHub Profile Viewer](assets/git.png)
 
-
 ## Features
 
-* Search GitHub Users
 * Search for any GitHub username.
-* Fetch user data directly from the GitHub API.
-* Display profile information instantly.
-* View Profile Details
+* Fetch user information directly from the GitHub API.
+* Display profile details instantly.
+* View repository and follower statistics.
+* Open the user's GitHub profile in a new browser tab.
+* Responsive design for desktop, tablet, and mobile devices.
 
-The application displays:
+## Profile Information Displayed
 
-  * Profile Picture (Avatar)
-  * Username
-  * Full Name
-  * Bio
-  * Location
-  * Number of Repositories
-  * Followers
-  * Following
-  * GitHub Profile Link
+The application displays the following information:
 
-* Visit GitHub Profile
-* Click the profile button or link to open the user's   GitHub page.
-* Opens in a new tab using the `target="_blank"` attribute.
-
-* Responsive Design
-
-  * Works across desktop, tablet, and mobile devices.
-  * Clean and user-friendly interface.
-  
+* Profile Picture (Avatar)
+* Username
+* Full Name
+* Bio
+* Location
+* Public Repositories
+* Followers
+* Following
+* GitHub Profile Link
 
 ## Project Structure
 
 github-profile-viewer/
+├── assets/
+│   └── git.png
 ├── index.html
 ├── style.css
-└── profile.js
+├── profile.js
+└── README.md
 
 ## Technologies Used
 
@@ -54,45 +49,47 @@ github-profile-viewer/
 
 ## How It Works
 
-1. User enters a GitHub username.
+1. Enter a GitHub username in the search field.
 2. The application sends a request to the GitHub API.
-3. User data is retrieved and displayed on the page.
-4. Clicking the GitHub profile link opens the profile in a new browser tab.
+3. User information is retrieved and processed.
+4. The profile details are displayed on the page.
+5. Users can click the profile link to visit the GitHub account.
 
 ## Example Search
 
-Search for:
+Example username:
 
 ```text
 octocat
 ```
 
-The application will display information about GitHub's famous example account.
+The application will display information about GitHub's official example account.
 
 ## Learning Objectives
 
-This project helps practice:
+This project helps developers practice:
 
 * Working with APIs
+* Fetching remote data
 * Using the Fetch API
 * Asynchronous JavaScript (Async/Await)
-* JSON Data Handling
 * DOM Manipulation
-* Event Listeners
+* Event Handling
+* JSON Data Processing
 * Error Handling
 * Responsive Web Design
 
 ## Future Improvements
 
-* Search multiple users
+* Search multiple users simultaneously
 * Repository filtering and sorting
 * GitHub activity feed
 * User comparison feature
 * Save favorite profiles
 * Advanced profile analytics
 
-## 🧑Author
+## Author
 
-Built with using HTML, CSS, JavaScript, and the GitHub API.
+Built using HTML, CSS, JavaScript, and the GitHub API.
 
-Feel free to fork this project, contribute improvements, and customize it to make it your own.# GITHUB-PROFILE-VIEWER
+Feel free to fork this project, contribute improvements, and customize it to make it your own.
