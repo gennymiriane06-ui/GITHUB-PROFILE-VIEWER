@@ -41,8 +41,8 @@ function displayUser(user) {
     <p>${user.bio || "No bio available"}</p>
 
     <div class="stats">
-      <span>{user.public_repos} Repos</span>
-      <span>{user.followers} Followers</span>
+      <span>${user.public_repos} Repos</span>
+      <span>${user.followers} Followers</span>
     </div>
   `;
 
